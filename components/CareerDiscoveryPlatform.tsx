@@ -151,7 +151,7 @@ const CareerDiscoveryPlatform = () => {
                 type="text"
                 value={userProfile.hobbies.join(', ')}
                 onChange={(e) => setUserProfile({...userProfile, hobbies: e.target.value.split(', ').filter(h => h)})}
-                className="w-full p-3 bg-gray-800 rounded-lg border border-ebook-700 focus:border-purple-500 focus:outline-none"
+                className="w-full p-3 bg-gray-800 rounded-lg border border-gray-700 focus:border-purple-500 focus:outline-none"
                 placeholder="e.g., Gaming, Photography, Music"
               />
             </div>
@@ -358,7 +358,7 @@ const CareerDiscoveryPlatform = () => {
                   </button>
 
                   <button className="flex flex-col items-center">
-                    <div className="p-3 rounded-full bg-gray-800/50 backdrop-blur-sman">
+                    <div className="p-3 rounded-full bg-gray-800/50 backdrop-blur-sm">
                       <Share2 size={20} className="text-gray-300" />
                     </div>
                     <span className="text-xs text-gray-400 mt-1">Share</span>
