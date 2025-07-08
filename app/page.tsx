@@ -1,9 +1,5 @@
-import CareerDiscoveryPlatform from './components/CareerDiscoveryPlatform.tsx';
+import CareerDiscoveryPlatform from '@/app/components/CareerDiscoveryPlatform';
 
-export default function Home() {
-  return (
-    <div>
-      <CareerDiscoveryPlatform />
-    </div>
-  );
+export default function Page() {
+  return <CareerDiscoveryPlatform />;
 }
