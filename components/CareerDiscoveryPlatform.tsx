@@ -273,7 +273,7 @@ const CareerDiscoveryPlatform = () => {
   }
 
   return (
-    <div className="min-h-screen bg-black text-white relative overflow-hidden">
+    <div className="min-h-screen bg-black text-white relative overflow-hidden" style={{backgroundColor: 'black', color: 'white', minHeight: '100vh'}}>
       {/* Header */}
       <div className="absolute top-0 left-0 right-0 z-20 flex justify-between items-center p-4">
         <div className="flex space-x-4">
