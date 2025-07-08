@@ -1,5 +1,11 @@
-import CareerDiscoveryPlatform from '../components/CareerDiscoveryPlatform'
+cat > src/pages/index.js << 'EOF'
+import CareerDiscoveryPlatform from '../components/CareerDiscoveryPlatform';
 
 export default function Home() {
-  return <CareerDiscoveryPlatform />
+  return (
+    <div>
+      <CareerDiscoveryPlatform />
+    </div>
+  );
 }
+EOF
