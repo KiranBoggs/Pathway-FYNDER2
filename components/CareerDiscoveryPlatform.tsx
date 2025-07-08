@@ -45,7 +45,7 @@ const CareerDiscoveryPlatform = () => {
       views: "543K",
       likes: "89K",
       description: "Behind the scenes of creating award-winning campaigns and leading creative teams.",
-      thumbnail: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=600&fit=crop",
+      thumbnail: "https://images.unsplash.com/photo-1552664688-5c3d3527e03d?w=400&h=600&fit=crop",
       duration: "5:20"
     },
     {
@@ -151,7 +151,7 @@ const CareerDiscoveryPlatform = () => {
                 type="text"
                 value={userProfile.hobbies.join(', ')}
                 onChange={(e) => setUserProfile({...userProfile, hobbies: e.target.value.split(', ').filter(h => h)})}
-                className="w-full p-3 bg-gray-800 rounded-lg border border-gray-700 focus:border-purple-500 focus:outline-none"
+                className="w-full p-3 bg-gray-800 rounded-lg border border-ebook-700 focus:border-purple-500 focus:outline-none"
                 placeholder="e.g., Gaming, Photography, Music"
               />
             </div>
@@ -163,7 +163,7 @@ const CareerDiscoveryPlatform = () => {
                 onChange={(e) => setUserProfile({...userProfile, aspirations: e.target.value})}
                 className="w-full p-3 bg-gray-800 rounded-lg border border-gray-700 focus:border-purple-500 focus:outline-none"
                 placeholder="What do you want to achieve in your career?"
-                rows={3}
+                rows="3"
               />
             </div>
 
@@ -358,7 +358,7 @@ const CareerDiscoveryPlatform = () => {
                   </button>
 
                   <button className="flex flex-col items-center">
-                    <div className="p-3 rounded-full bg-gray-800/50 backdrop-blur-sm">
+                    <div className="p-3 rounded-full bg-gray-800/50 backdrop-blur-sman">
                       <Share2 size={20} className="text-gray-300" />
                     </div>
                     <span className="text-xs text-gray-400 mt-1">Share</span>
