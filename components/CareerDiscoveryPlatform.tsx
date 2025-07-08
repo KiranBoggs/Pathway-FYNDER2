@@ -163,7 +163,7 @@ const CareerDiscoveryPlatform = () => {
                 onChange={(e) => setUserProfile({...userProfile, aspirations: e.target.value})}
                 className="w-full p-3 bg-gray-800 rounded-lg border border-gray-700 focus:border-purple-500 focus:outline-none"
                 placeholder="What do you want to achieve in your career?"
-                rows="3"
+                rows={3}
               />
             </div>
 
