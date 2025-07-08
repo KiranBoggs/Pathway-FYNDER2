@@ -1,5 +1,4 @@
-cat > src/pages/index.js << 'EOF'
-import CareerDiscoveryPlatform from '../components/CareerDiscoveryPlatform';
+import CareerDiscoveryPlatform from './components/CareerDiscoveryPlatform';
 
 export default function Home() {
   return (
@@ -8,4 +7,3 @@ export default function Home() {
     </div>
   );
 }
-EOF
