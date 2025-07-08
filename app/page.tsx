@@ -1,4 +1,4 @@
-import CareerDiscoveryPlatform from './components/CareerDiscoveryPlatform';
+import CareerDiscoveryPlatform from './components/CareerDiscoveryPlatform.tsx';
 
 export default function Home() {
   return (
